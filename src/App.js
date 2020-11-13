@@ -1,5 +1,5 @@
 import './App.css';
-import {GoogleMaps} from './GoogleMaps'
+import Home from './components/Home'
 
 function App() {
   return (
@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <h2>Google Map Integration</h2>
       </header>
-        <GoogleMaps />
+      <Home />
     </div>
   );
 }
